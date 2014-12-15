@@ -1,0 +1,39 @@
+html {
+	background            : url(../img/blur.jpg) no-repeat;
+	background-attachment : fixed;
+	background-size       : auto;
+	background-size       : cover;
+	background-repeat     : no-repeat;
+	background-position   : center center;
+}
+
+label {
+	visibility            : hidden;
+	font-size             : 0px;
+	max-height            : 0px;
+}
+
+#main {
+	margin-left           : 0px;
+	width                 : 400px;
+}
+
+
+#sitetitle {
+top                   : 6px;
+left                  : 130px;
+font-size             : 48px;
+font-weight           : bold;
+}
+
+#siteslogan {
+top                   : 65px;
+left                  : 130px;
+font-style            : italic;
+color                 : #00892B;
+}
+
+
+fieldset {
+	border: 0px;
+}

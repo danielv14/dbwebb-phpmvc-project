@@ -1,0 +1,138 @@
+/**
+ * General elements
+ */
+html {
+background            : url(../img/blur.jpg) no-repeat;
+background-attachment : fixed;
+background-size       : auto;
+background-size       : cover;
+background-repeat     : no-repeat;
+background-position   : center center;
+}
+
+
+body {
+font-family           : ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+line-height           : 1.5;
+}
+
+#wrapper {
+margin-left           : auto;
+margin-right          : auto;
+width                 : 960px;
+background-color      : white;
+border-radius         : 5px;
+padding               : 10px;
+margin-top            : 10px;
+
+}
+
+h1 {
+font-size             : 2.2em;
+}
+
+a {
+color                 : #00892B;
+text-decoration       : none;
+}
+
+a:hover {
+text-decoration       : underline;
+}
+
+/* Style for <hr> above footer */
+hr.style-two {
+border                : 0;
+height                : 1px;
+background-image      : -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image      : -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image      : -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+background-image      : -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+/* Style for <hr> under navbar */
+hr.style-four {
+height                : 12px;
+border                : 0;
+box-shadow            : inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+img {
+border-radius         : 50%;
+-webkit-border-radius : 50%;
+-moz-border-radius    : 50%;
+}
+
+
+
+#header {
+margin-top            : 20px;
+margin-bottom         : 20px;
+}
+
+#footer {
+bottom                : 0;
+margin-bottom         : 10px;
+}
+
+
+.sitetitle {
+top                   : 6px;
+left                  : 130px;
+font-size             : 48px;
+font-weight           : bold;
+}
+
+.siteslogan {
+top                   : 65px;
+left                  : 130px;
+font-style            : italic;
+color                 : #00892B;
+}
+
+/* Style for span class wrapping the "stack" part of title in header */
+span.green {
+color                 : #00892B;
+}
+
+/* Style for font-awesome icons on top lists */
+.tag, .top-stats {
+color              : #00892B;
+}
+
+
+/* Style for wrapper around the top-divs on homepage */
+div.top-wrapper {
+  margin-left: 35px;
+  margin-right: auto;
+  margin-top: 20px;
+}
+/* Style for the 3 divs (top stats) on the frontpage */
+div.left, div.middle, div.right, div.far-right {
+  width: 200px;
+  display: inline-block;
+  margin-left: 10px;
+  padding-left: 5px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+
+}
+div.left p, div.middle p, div.right p, div.far-right p {
+  text-align: left;
+}
+div.left h3, div.middle h3, div.right h3, div.far-right h3 {
+  text-align: left;
+}
+
+div.left, div.middle, div.right, div.far-right {
+-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+
+}
+
+div.left:hover, div.middle:hover, div.right:hover, div.far-right:hover {
+-webkit-box-shadow : inset 0px 0px  5px 0px rgba(119, 119, 119, 0.44);
+-moz-box-shadow    : inset 0px 0px  5px 0px rgba(119, 119, 119, 0.44);
+box-shadow         : inset 0px 0px  5px 0px rgba(119, 119, 119, 0.44);
+}

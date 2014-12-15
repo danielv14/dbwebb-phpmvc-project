@@ -1,0 +1,228 @@
+/**
+ * Style for comment system forms
+ */
+div.center-form {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 500px;
+	-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+}
+
+div.center-form:hover {
+	-webkit-box-shadow : inset 0px 0px  5px 0px rgba(119, 119, 119, 0.44);
+    -moz-box-shadow    : inset 0px 0px  5px 0px rgba(119, 119, 119, 0.44);
+     box-shadow         : inset 0px 0px  5px 0px rgba(119, 119, 119, 0.44);
+}
+
+div.center-form label {
+padding-left: 5px;
+margin-left: auto;
+margin-right: auto;
+display: inline-block;
+}
+
+div.center-form input[type=text] {
+font-size          : 12px;
+width              : 40%;
+height             : 14px;
+}
+
+div.center-form input[type=submit] {
+font-size          : 20px;
+background-color: #00892B;
+border: 0px;
+border-radius: 5px;
+color: white;
+cursor:pointer;
+}
+
+div.center-form textarea {
+font-size          : 12px;
+width              : 400px;
+height             : 200px;
+}
+
+div.center-form fieldset{
+font-size          : 14px;
+border             : 0px;
+
+}
+
+.comment-form {
+padding-top        : 15px;
+}
+
+
+li.post {
+clear              : both;
+padding            : 10px 0;
+list-style         : none;
+margin-bottom      : 10px;
+margin-top         : 10px;
+
+}
+
+.add-comment {
+font-size          : 1.5em;
+clear              : both;
+padding-top        : 20px;
+padding-bottom     : 10px;
+}
+
+.add-comment a {
+text-decoration    : none;
+color              : #00892B;
+}
+
+.answers {
+  margin: 0px;
+  padding: 0px;
+}
+.post-wrapper {
+clear              : both;
+padding            : 10px 0;
+list-style         : none;
+min-height         : 60px;
+margin-bottom      : 5px;
+margin-top         : 5px;
+padding-left       : 10px;
+overflow           : hidden;
+box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+border-radius: 10px;
+width: 85%;
+}
+
+.post-wrapper:hover {
+box-shadow: inset 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-moz-box-shadow: inset 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-webkit-box-shadow: inset 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+}
+
+
+.post-body {
+min-height         : 60px;
+width              : 650px;
+float              : left;
+font-size          : 18px;
+}
+
+.avatar {
+width              : 65px;
+height             : 65px;
+margin-right       : 10px;
+float              : left;
+margin-top: 10px;
+margin-bottom: 15px;
+}
+
+/* Style for header part of comments, name of the question etc */
+.post-header {
+color              : black;
+    
+}
+
+.post-title {
+font-size          : 20px;
+}
+
+.post-title a {
+	color: black;
+}
+
+.post-content {
+font-size          : 20px;
+}
+
+.who-posted {
+	color: black;
+	font-size: 14px;
+}
+.post-tags {
+font-size          : 12px;
+margin-top         : 2px;
+color              : #00892B;
+
+}
+
+.post-tags a {
+text-decoration    : none;
+color              : #00892B;
+}
+
+.tag {
+padding            : 0 5px;
+margin-right       : 5px;
+line-height        : 15px;
+font-size          : 16px;
+}
+
+/* Style for top users and new posts */
+.top-stats {
+padding            : 0 5px;
+margin-right       : 5px;
+line-height        : 5px;
+font-size          : 16px;
+}
+
+.tag a, .top-stats a {
+text-decoration    : none;
+color              : #00892B;
+font-weight        : bold;
+
+}
+.tag a:hover, .top-stats a:hover {
+text-decoration    : underline;
+}  
+
+.post-footer {
+color              : gray;
+font-size          : 12px;
+}
+
+
+
+/* Style for create-button effect */
+span.create-button {
+	background-color: #00892B;
+	color: white;
+	padding: 4px;
+	border-radius: 4px;
+	margin-left: 4px;
+}
+
+span.create-button a {
+	color: white;
+	padding: 4px;
+}
+
+span.create-button a:hover {
+	text-decoration: none;
+}
+
+span.create-button:hover {
+	background-color: rgba(0,138,45,0.74);
+}
+
+
+/* Style for seperator */
+div.seperator {
+	display: block;
+	padding: 3px 0;
+	padding-left: 10px;
+	margin-left: 150px;
+	border-radius: 10px;
+	width: 45%;
+	background-color: rgba(0,138,45,0.74);
+	height: 1px;
+	box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-moz-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+-webkit-box-shadow: 0px 0px 5px 0px rgba(119, 119, 119, 0.44);
+}
+
+
