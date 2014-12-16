@@ -43,8 +43,6 @@ $app->theme->setTitle("Breaking Stack");
 $app->theme->addStylesheet('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
 
-// Different routes below
-
 $app->router->add('', function() use ($app) {
 
     $app->theme->setTitle("Home");
@@ -109,10 +107,6 @@ $app->router->add('login', function() use ($app) {
         'action'=> 'view',
     ]);
 });
-
-
-
-
 
 if (isset($_SESSION['authenticated']['valid'])) {
 
