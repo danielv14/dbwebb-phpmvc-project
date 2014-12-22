@@ -4,7 +4,7 @@ This is a webb app build with the help of Anax-MVC as a result of the project in
 
 Installation
 ----------------------------------------
-Download as .zip or clone the repo. After you have made the database writable it should all be working. The database is located in webroot/database.
+Download as .zip or clone the repo. After you have made the database writable it should all be working. The database is located in webroot/database. Remeber to also give chmod 777 to the folder that contains the database.
 If you want to start with a fresh database, go ahead and erase all the data in the database and just keep the tables as is. 
 
 You have to fiddle with the .htacces-file and the RewriteBase to get Breaking Stack to work locally. Change the row:
